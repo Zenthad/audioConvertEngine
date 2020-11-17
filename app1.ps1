@@ -43,7 +43,7 @@ Function Get-AudioFolder($initialDirectory)
 
 # set the ffmpeg execution directory and assign the psdrive "convertEngine"
 
-new-psdrive -Name "convertEngine" -PSProvider FileSystem -root '\\cityfiles\shared\it dept\tadd\ScriptInterfaces\ffmpeg\bin\'
+new-psdrive -Name "convertEngine" -PSProvider FileSystem -root '\\<fileserverHostname>\shared\it dept\tadd\ScriptInterfaces\ffmpeg\bin\'
 
 # locate the source audio files to be converted
 
